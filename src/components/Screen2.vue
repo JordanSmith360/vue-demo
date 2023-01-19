@@ -5,7 +5,7 @@ const router = useRouter();
 const route = useRoute();
 
 const routeToScreen1 = () => {
-  router.push("/screen1");
+  router.push("/");
 };
 </script>
 

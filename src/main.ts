@@ -8,7 +8,7 @@ import Screen2 from "./components/Screen2.vue";
 
 const routes = [
   {
-    path: "/screen1",
+    path: "/",
     component: Screen1,
   },
   {
