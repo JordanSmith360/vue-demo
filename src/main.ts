@@ -1,4 +1,7 @@
 import { createApp } from "vue";
+import { Quasar } from "quasar";
+import "@quasar/extras/material-icons/material-icons.css";
+import "quasar/src/css/index.sass";
 import "./style.css";
 import App from "./App.vue";
 import { createRouter, createWebHashHistory } from "vue-router";
@@ -23,7 +26,7 @@ const router = createRouter({
   routes, // short for `routes: routes`
 });
 
-createApp(App).use(router).mount("#app");
+createApp(App).use(router).use(Quasar).mount("#app");
 
 export interface WordStructure {
   title: string;
